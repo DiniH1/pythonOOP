@@ -58,3 +58,30 @@ print(math.floor(num1))`
 `print(random())`
 # generates a random number everytime the prorams executes between 0.0 to .99
 `print(math.pi)`
+import math, datetime, sys #sys is used to get system specific information
+work_dir = os.getcwd() # getcwd provides location/path
+# print(work_dir)
+#
+# print(os.getuid())
+# print(os.uname())
+# print(os.cpu_count())
+#
+# print(datetime.date.today()) # Today's date
+# print(sys.path)
+# type() len()
+
+import requests  # requests is a package to interact with a live API -
+# we can make API call to any web adress using python requests packages
+# pip is a package manager in python to install any packages not available by default
+
+# pip instal requests using pip
+- 'pip install requests'
+
+import requests
+
+requests_api = requests.get("https://www.bbc.co.uk/")
+if requests_api.status_code == 200:
+    print("Success")
+print(type(requests_api.status_code)) # 200 for success 404 and above for failure
+print(type(requests_api.headers))
+print(type(requests_api.content))
