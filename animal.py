@@ -22,5 +22,5 @@ cat = Animal()  # Creating an object of Animal class
 # for cat as auser the functionality inside Animal class and the method to breathe is abstracted
 # print(cat.breathe())
 # print(cat.eat())
-
+print(cat.move())
 # Let's move onto our step two

@@ -90,15 +90,15 @@ print(type(requests_api.content))
 ## Four pillars of OOP
 
 -  Abstraction
-   - insert definition and examples for each
--
+ - Abstraction is an extension of encapsulation. It is the process of selecting data from a larger pool to show only the relevant details to the object. 
 - 
 - Inheritance
- - 
- -
+ -  Inheritance is the ability of one object to acquire some/all properties of another object
+ - With inheritance, reusability is a major advantage. You can reuse the fields and methods of the existing class
 - Encapsulation
+  - Enacapsulation is when an object is in private state where it can not be altered or accessed unless explicity allowed 
 - Polymorphism
-
+ - Polymorphism gives us a way to use a class exactly like its parent so there is no confusion with mixing types. This being said, each child sub-class keeps its own functions/methods as they are.
 - step one create an animal.py file to create parent class
 - step two to create file called reptile.py to abstract data and inherit from animal.py
 - step three create a file called snake.py
